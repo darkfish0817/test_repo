@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: thymeboard
+  datasource:
+    url: jdbc:mariadb://localhost:3316/testdb
+    username: boardmgr
+    password: boardmgr
+    driver-class-name: org.mariadb.jdbc.Driver
